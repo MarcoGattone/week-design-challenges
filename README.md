@@ -6,11 +6,11 @@ references: https://www.figma.com/community/file/1163831720659307161
 
 ## DAY 1
 
-*note*: 
+*note*: I used entirely css and html to create a zoom in animation; This is possible thanks to 'transform' 'scale' and 'translate'.
 
 ## DAY 2
 
-*note*: 
+*note*: To create this effect, I used a simple box-shadow and the filter: blur().
 
 ## DAY 3
 
