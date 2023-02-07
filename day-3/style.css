@@ -165,7 +165,7 @@ img:nth-child(3){
         height: 161px;
     }
     .images:nth-child(1){
-        right: 0px;top: 0px;
+        right: 0px;top: 20px;
     }
     .images:nth-child(2){
         right: 170px;top: 250px;

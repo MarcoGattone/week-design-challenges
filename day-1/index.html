@@ -11,6 +11,12 @@
     </head>
     <body>
 
+        <div class="return">
+            <a href="../"><svg style="position: absolute;left: -25px;top: 4.5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg> <span>Back to projects</span></a>
+        </div>
+
         <div class="group-cards">
             <!--First card-->
             <div class="card">
@@ -87,6 +93,16 @@
             }
             .card-img:hover .another-img {
                 transform: scale(1.2) translate(-15%, 5%);
+            }
+
+            /*Return to home*/
+            .return{
+                position: absolute;
+                top:20px; right: 20px;
+            }
+            .return a{
+                color:#000;
+                font-weight: 500;
             }
         </style>
     </body>
