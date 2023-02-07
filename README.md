@@ -14,7 +14,7 @@ references: https://www.figma.com/community/file/1163831720659307161
 
 ## DAY 3
 
-*note*: 
+*note*: Some css and Js for this effect.
 
 ## DAY 4
 
