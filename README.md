@@ -18,7 +18,7 @@ references: https://www.figma.com/community/file/1163831720659307161
 
 ## DAY 4
 
-*note*: 
+*note*: Used slick.js for carousel and some js and css for adjust the style.
 
 ## DAY 5
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DAY 4 | CURVED CAROUSEL</title>
+
+        <!--POPPINS FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <!--Style-->
+        <link href="style.css" rel="stylesheet">
+
+        <!--Slick-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    </head>
+    <body>
+
+        <div class="return">
+            <a href="../"><svg style="position: absolute;left: -25px;top: 4.5px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg> <span>Back to projects</span></a>
+        </div>
+
+        <div class="tex-content">
+            <h1>Welcome to <span class="tree">TREE</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere id dui nibh a nulla hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere id dui nibh a nulla hendrerit.</p>
+            <a class="btn-buy">BUY NOW</a>
+        </div>        
+
+        
+    <div class="slider slick-initialized slick-slider">
+        <div id="carousel" class="slick-list">
+            <span class="slide slide1"><img src="images/image1.jpg" class="img-hid" alt="Image 2"></span>
+            <span class="slide slide2"><img src="images/image2.jpg" class="img-hid" alt="Image 2"></span>
+            <span class="slide slide3"><img src="images/image3.jpg" class="img-hid" alt="Image 3"></span>
+            <span class="slide slide4"><img src="images/image4.jpg" class="img-hid" alt="Image 4"></span>
+            <span class="slide slide5"><img src="images/image5.jpg" class="img-hid" alt="Image 5"></span>
+            <span class="slide slide6"><img src="images/image6.jpg" class="img-hid" alt="Image 6"></span>
+            <span class="slide slide7"><img src="images/image7.jpg" class="img-hid" alt="Image 7"></span>
+        </div>
+    </div>
+
+    <div class="mouse-hover-drag">
+        <svg style="margin-right:20px;" width="51" height="13" viewBox="0 0 51 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.381934 5.84019C0.0405876 6.18154 0.0405876 6.73497 0.381934 7.07631L5.94449 12.6389C6.28584 12.9802 6.83927 12.9802 7.18061 12.6389C7.52196 12.2975 7.52196 11.7441 7.18061 11.4027L2.23612 6.45825L7.18061 1.51376C7.52196 1.17241 7.52196 0.618978 7.18061 0.277632C6.83927 -0.0637136 6.28584 -0.0637136 5.94449 0.277632L0.381934 5.84019ZM51 5.58418L0.999995 5.58418V7.33232L51 7.33232V5.58418Z" fill="#D9D5D5"/>
+        </svg>
+        <span class="drag">DRAG</span>
+        <svg style="margin-left:20px;" width="52" height="14" viewBox="0 0 52 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M51.5993 8.01986C51.9406 7.67851 51.9406 7.12508 51.5993 6.78373L46.0367 1.22117C45.6954 0.879828 45.1419 0.879828 44.8006 1.22117C44.4592 1.56252 44.4592 2.11595 44.8006 2.4573L49.7451 7.40179L44.8006 12.3463C44.4592 12.6876 44.4592 13.2411 44.8006 13.5824C45.1419 13.9238 45.6954 13.9238 46.0367 13.5824L51.5993 8.01986ZM0.981201 8.27587H50.9812V6.52772H0.981201V8.27587Z" fill="#D9D5D5"/>
+        </svg>
+    </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#carousel').slick({
+                    autoplay: false,
+                    autoplaySpeed: 3000,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    dots: false
+                });
+            });
+        </script>
+
+        <script src="carousel.js"></script>
+    </body>
+</html>
