@@ -22,7 +22,7 @@ references: https://www.figma.com/community/file/1163831720659307161
 
 ## DAY 5
 
-*note*: 
+*note*: Inspired by the classic confetti effect, made with js.
 
 ## DAY 6
 

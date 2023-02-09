@@ -1,0 +1,112 @@
+/*Return to home*/
+.return{
+    position: absolute;
+    top:20px; right: 20px;
+}
+.return a{
+    color:#000;
+    font-weight: 500;
+}
+
+/*Style page*/
+body {
+    font-family: 'Poppins';
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.card-bday{
+    background: linear-gradient(219.34deg, rgba(255, 4, 4, 0.2) 0%, rgba(255, 4, 4, 0.122) 85.22%), linear-gradient(150.72deg, #A293FD 47.36%, rgba(252, 60, 221, 0) 102.64%);
+    text-align: center;
+    padding: 50px;
+    height: 1068px;
+}
+
+.photo-bday{
+    width: 280px;
+    height: 280px;
+    filter: drop-shadow(0px 10px 5px #222);
+}
+.title{
+    font-size: 64px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.card-p{
+    font-size: 24px;
+    font-family: 'Poppins';
+    width: 550px;
+    margin: 0;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.tap-wish{
+    font-size: 32px;
+    font-family: 'Inter';
+    text-transform:uppercase;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -20px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 66px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: none;
+    padding: 40px 50px;
+    border-radius: 100%;
+    bottom: 0;
+}
+
+
+@media (max-width:425px){
+    .return{
+        top:0px;
+    }
+
+    .photo-bday{
+        width: 180px;
+        height: 180px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .card-p{
+        font-size: 16px;
+        position: fixed;
+        width: 100%;
+        top: 45%;
+    }
+    .tap-wish{
+        font-size: 26px;
+        bottom: -10px;
+    }
+
+    button{
+        font-size: 46px;
+        padding: 30px 36px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width:320px){
+    .tap-wish{
+        font-size: 16px;
+        bottom:10px;
+    }
+    .card-p{
+        top: 50%;
+    }
+}
